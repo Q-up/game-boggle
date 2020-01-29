@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
     <title>Boggle By Quincey Hollman</title>
-    <link rel="stylessheet" href = "styl.css">
+    <link rel="stylesheet" href = "style.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="wideth=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
 </head>
 <body>
-    <div id="top">
-        <header><img src=" " alt= "Pin up girl drawing"></header>
-        <h2>The Amazing BOGGLE!</h2>
+    <div id="main">
+        <header><img src=" " alt= ""> </header>
+        <h2>The AMAZING BOGGLE!</h2>
         <div id="game-board">
             <div id="row0"></div>
             <div id="row1"></div>
@@ -26,8 +27,13 @@
         <div></div>
         <div></div>
         <div> </div>
-        <div></div>
-        <footer>Artist: 👾 Quincey(Q) Hollman</footer> 
+        <div id='bottom'>
+            <button type='button' class="startTimer">Start Timer</button><!--Becomes: Stop timer on click-->
+            <button type='button' class='submit'>Submit</button>
+            <button type='button' class="reshuffle">Reshuffle</button>
+            <button></button>
+        </div>
+        <footer>Developer: Quincey(Q) Hollman</footer> 
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
