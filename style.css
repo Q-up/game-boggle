@@ -45,12 +45,12 @@ footer{
     font-weight: bold;
     line-height: 1;
     border-radius: 5px;
-    transition: all .15s ease-in-out;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
     margin: 6px;
-    background-color: rgb(160, 142, 245);
+	background-color: rgb(160, 142, 245);
+	border: 5px solid rgb(17, 14, 2);
 }
+
 
 .reshuffle, .submit, .startTimer {
 	padding: 5px 20px; 
@@ -70,21 +70,22 @@ footer{
 	
 	border: 5px solid rgb(17, 14, 2);
 	background-color: rgb(135, 8, 103);
-	padding: 5px;
+	padding: 5px; 
 	margin: 10px auto 10px auto;
-	display: flex;
-    flex-wrap: wrap;
+	flex-wrap: wrap;  
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #row0 {
-	display: flex; 
+	/* display: flex;  */
+
 }
 #row1 {
-	display: flex;
+	/* display: flex; */
 }
 #row2 {
-	display: flex;
+	/* display: flex; */
 }
 #row3 {
-	display: flex;
+	/* display: flex; */
 }
