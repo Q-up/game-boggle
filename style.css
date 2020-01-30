@@ -67,9 +67,24 @@ footer{
 }
 
 #game-board {
-	display: inline-block;
+	
 	border: 5px solid rgb(17, 14, 2);
 	background-color: rgb(135, 8, 103);
 	padding: 5px;
 	margin: 10px auto 10px auto;
+	display: flex;
+    flex-wrap: wrap;
+}
+
+#row0 {
+	display: flex; 
+}
+#row1 {
+	display: flex;
+}
+#row2 {
+	display: flex;
+}
+#row3 {
+	display: flex;
 }

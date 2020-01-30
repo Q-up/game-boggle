@@ -1,4 +1,4 @@
-//import JS dicitonary 
+//import JS dicitonary Set 
 
 //Make list of dice to be rolled
 const diceList = [
